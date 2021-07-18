@@ -1,8 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
+import Review from "./components/Review";
 
 function App() {
   return (
-    <main>med</main>
+    <main>
+      <section className="container">
+        <div className="title">
+          <h2>our reviews</h2>
+          <div className="underline"></div>
+        </div>
+        <Review />
+      </section>
+    </main>
   );
 }
 
